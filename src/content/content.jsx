@@ -253,9 +253,6 @@ const content = {
           Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
           consultoria e assessoria jurídica.
           <br />
-          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
-          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
-          conflitos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -271,11 +268,6 @@ const content = {
           Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
           Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
           consultoria e assessoria jurídica.
-          <br />
-          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
-          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
-          conflitos.
-          <br />
           <br />
           Minha prioridade sempre foi oferecer um atendimento diferenciado,
           focado em atingir os objetivos de cada cliente com criatividade,
