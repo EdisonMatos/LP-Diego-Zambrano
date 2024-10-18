@@ -46,16 +46,16 @@ export default function ImagesGallery3Slides(props) {
   ];
 
   return (
-    <div>
+    <div className="w-full">
       <ImageGallery
         items={images}
         showBullets={false}
         autoPlay={true}
-        showFullscreenButton={false}
+        showFullscreenButton={true}
         useBrowserFullscreen={true}
         showThumbnails={false}
         showNav={false}
-        showPlayButton={false}
+        showPlayButton={true}
       />
     </div>
   );

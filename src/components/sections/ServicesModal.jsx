@@ -9,6 +9,10 @@ import ServiceDetailCard from "../cards/ServiceDetailCard";
 import content from "../../content/content";
 import AcordionModalServices from "../interactives/AcordionModalServices";
 import Button from "../interactives/Button";
+import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
+import slide1 from "../../assets/imgs/imgModal/imgModal1.jpeg";
+import slide2 from "../../assets/imgs/imgModal/imgModal2.jpeg";
+import slide3 from "../../assets/imgs/imgModal/imgModal3.jpeg";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -1195,6 +1199,8 @@ const ServicesModal = () => {
     },
   ];
 
+  
+
   return (
     <div>
       <Button
@@ -1225,7 +1231,7 @@ const ServicesModal = () => {
       />
 
       <Dialog
-        header="Nossos Procedimentos"
+        header="A Definir"
         headerStyle={{ paddingBottom: "3px" }}
         visible={visible}
         onHide={() => setVisible(false)}
@@ -1236,12 +1242,17 @@ const ServicesModal = () => {
         <div className="flex flex-col w-full gap-[12px]">
           <div>
             <p className="text-paragraph4 font-secondFont">
-              Selecione a área que deseja saber mais sobre:
+              A Definir:
             </p>
           </div>
           <div className="flex justify-center w-full">
             {/* <TabComponent tabs={tabs} /> */}
-            <AcordionModalServices />
+            {/* <AcordionModalServices /> */}
+            <ImagesGallery3Slides
+              slide1={slide1}
+              slide2={slide2}
+              slide3={slide3}
+            />
           </div>
         </div>
       </Dialog>
@@ -1249,13 +1260,13 @@ const ServicesModal = () => {
   );
 };
 
-ServicesModal.propTypes = {
-  tabs: PropTypes.arrayOf(
-    PropTypes.shape({
-      label: PropTypes.string.isRequired,
-      content: PropTypes.node.isRequired,
-    })
-  ).isRequired,
-};
+// ServicesModal.propTypes = {
+//   tabs: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       label: PropTypes.string.isRequired,
+//       content: PropTypes.node.isRequired,
+//     })
+//   ).isRequired,
+// };
 
 export default ServicesModal;

@@ -9,8 +9,10 @@ import Icon1 from "../../assets/imgs/icons/icon1.png";
 import Icon2 from "../../assets/imgs/icons/icon2.png";
 import Icon3 from "../../assets/imgs/icons/icon3.png";
 import Icon4 from "../../assets/imgs/icons/icon4.png";
+import ServicesModal from "./ServicesModal";
+import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
 
-export default function FeaturesWithIcons() {
+export default function FeaturesWithIcons({ modal }) {
   return (
     <SectionArea id="service" className="squares">
       <SectionHeader
@@ -64,12 +66,17 @@ export default function FeaturesWithIcons() {
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+            <MotionDivDownToUp className=" flex flex-col items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
               <IconFeatureCard
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
               />
+              {modal && (
+                <div>
+                  <ServicesModal />
+                </div>
+              )}
             </MotionDivDownToUp>
           </div>
         </div>
