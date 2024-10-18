@@ -71,12 +71,15 @@ export default function FeaturesWithIcons({ modal }) {
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
-              />
-              {modal && (
+              >
                 <div>
-                  <ServicesModal />
+                  {modal && (
+                    <div>
+                      <ServicesModal />
+                    </div>
+                  )}
                 </div>
-              )}
+              </IconFeatureCard>
             </MotionDivDownToUp>
           </div>
         </div>
