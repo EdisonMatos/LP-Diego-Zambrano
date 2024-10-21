@@ -10,9 +10,23 @@ import content from "../../content/content";
 import AcordionModalServices from "../interactives/AcordionModalServices";
 import Button from "../interactives/Button";
 import ImagesGallery3Slides from "../interactives/ImagesGallery3Slides";
-import slide1 from "../../assets/imgs/imgModal/imgModal1.jpeg";
-import slide2 from "../../assets/imgs/imgModal/imgModal2.jpeg";
-import slide3 from "../../assets/imgs/imgModal/imgModal3.jpeg";
+import slide1 from "../../assets/imgs/imgModal/imgModal1.webp";
+import slide2 from "../../assets/imgs/imgModal/imgModal2.webp";
+import slide3 from "../../assets/imgs/imgModal/imgModal3.webp";
+import slide4 from "../../assets/imgs/imgModal/imgModal4.webp";
+import slide5 from "../../assets/imgs/imgModal/imgModal5.webp";
+import slide6 from "../../assets/imgs/imgModal/imgModal6.webp";
+import slide7 from "../../assets/imgs/imgModal/imgModal7.webp";
+import slide8 from "../../assets/imgs/imgModal/imgModal8.webp";
+import slide9 from "../../assets/imgs/imgModal/imgModal9.webp";
+import slide10 from "../../assets/imgs/imgModal/imgModal10.webp";
+import slide11 from "../../assets/imgs/imgModal/imgModal11.webp";
+import slide12 from "../../assets/imgs/imgModal/imgModal12.webp";
+import slide13 from "../../assets/imgs/imgModal/imgModal13.webp";
+import slide14 from "../../assets/imgs/imgModal/imgModal14.webp";
+import slide15 from "../../assets/imgs/imgModal/imgModal15.webp";
+import slide16 from "../../assets/imgs/imgModal/imgModal16.webp";
+import slide17 from "../../assets/imgs/imgModal/imgModalPhone.jpg";
 
 const ServicesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -1199,8 +1213,6 @@ const ServicesModal = () => {
     },
   ];
 
-  
-
   return (
     <div>
       <Button
@@ -1236,14 +1248,12 @@ const ServicesModal = () => {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "60%", "426px": "90vw" }}
+        breakpoints={{ "1024px": "60%", "1023px": "80%", "426px": "90%" }}
         contentStyle={{ padding: "1rem", paddingLeft: "", paddingRight: "" }}
       >
         <div className="flex flex-col w-full gap-[12px]">
           <div>
-            <p className="text-paragraph4 font-secondFont">
-              A Definir:
-            </p>
+            <p className="text-paragraph4 font-secondFont">A Definir:</p>
           </div>
           <div className="flex justify-center w-full">
             {/* <TabComponent tabs={tabs} /> */}
@@ -1252,6 +1262,20 @@ const ServicesModal = () => {
               slide1={slide1}
               slide2={slide2}
               slide3={slide3}
+              slide4={slide4}
+              slide5={slide5}
+              slide6={slide6}
+              slide7={slide7}
+              slide8={slide8}
+              slide9={slide9}
+              slide10={slide10}
+              slide11={slide11}
+              slide12={slide12}
+              slide13={slide13}
+              slide14={slide14}
+              slide15={slide15}
+              slide16={slide16}
+              slide17={slide17}
             />
           </div>
         </div>
