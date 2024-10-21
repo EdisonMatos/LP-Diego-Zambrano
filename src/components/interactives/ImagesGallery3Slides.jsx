@@ -51,10 +51,10 @@ export default function ImagesGallery3Slides(props) {
         items={images}
         showBullets={false}
         autoPlay={true}
-        showFullscreenButton={true}
-        useBrowserFullscreen={true}
+        showFullscreenButton={false}
+        useBrowserFullscreen={false}
         showThumbnails={false}
-        showNav={false}
+        showNav={true}
         showPlayButton={true}
       />
     </div>

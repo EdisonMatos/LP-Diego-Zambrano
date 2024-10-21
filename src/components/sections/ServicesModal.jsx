@@ -1236,7 +1236,7 @@ const ServicesModal = () => {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "384px", "426px": "90vw" }}
+        breakpoints={{ "4000px": "60%", "426px": "90vw" }}
         contentStyle={{ padding: "1rem", paddingLeft: "", paddingRight: "" }}
       >
         <div className="flex flex-col w-full gap-[12px]">
