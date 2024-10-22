@@ -1278,10 +1278,10 @@ const ServicesModal = () => {
               slide14={slide14}
               slide15={slide15}
               slide16={slide16}
-              className="hidden tablet2:flex w-full justify-center"
+              className="hidden tablet1:flex w-full justify-center"
             />
             <ImagesGallery2Slides
-              className="flex w-full justify-center tablet2:hidden"
+              className="flex w-full justify-center tablet1:hidden"
               slide1={slide01}
               slide2={slide02}
               slide3={slide03}
