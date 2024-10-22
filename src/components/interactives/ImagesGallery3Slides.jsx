@@ -4,8 +4,6 @@ import PropTypes from "prop-types";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export default function ImagesGallery3Slides(props) {
-  const isMobileView = window.innerWidth <= 640;
-
   const {
     slide1,
     slide2,
@@ -23,7 +21,7 @@ export default function ImagesGallery3Slides(props) {
     slide14,
     slide15,
     slide16,
-    slide17,
+    className,
   } = props;
 
   ImagesGallery3Slides.propTypes = {
@@ -43,7 +41,7 @@ export default function ImagesGallery3Slides(props) {
     slide14: PropTypes.any,
     slide15: PropTypes.any,
     slide16: PropTypes.any,
-    slide17: PropTypes.any,
+    className: PropTypes.string,
   };
 
   const images = [
@@ -123,7 +121,7 @@ export default function ImagesGallery3Slides(props) {
       original: slide8,
       thumbnail: slide8,
       originalAlt: "Imagem sobre Criação de tarefas e agendamento do sistema",
-      thumbnailAlt: "Imagem sobre  Criação de tarefas e agendamento do sistema",
+      thumbnailAlt: "Imagem sobre Criação de tarefas e agendamento do sistema",
       originalHeight: 100,
       originalWidth: 100,
       thumbnailHeight: 50,
@@ -219,20 +217,10 @@ export default function ImagesGallery3Slides(props) {
       thumbnailHeight: 50,
       thumbnailWidth: 50,
     },
-    {
-      original: slide17,
-      thumbnail: slide17,
-      originalAlt: "Imagem sobre print",
-      thumbnailAlt: "Imagem sobre print",
-      originalHeight: 100,
-      originalWidth: 100,
-      thumbnailHeight: 50,
-      thumbnailWidth: 50,
-    },
   ];
 
   return (
-    <div className="w-full">
+    <div className={`w-full ${className}`}>
       <ImageGallery
         items={images}
         showBullets={false}
