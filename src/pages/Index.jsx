@@ -14,12 +14,14 @@ import Hero from "../components/sections/Hero";
 import FeaturesButton from "../components/sections/FeaturesButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 
+// Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
+
 export default function Index() {
   return (
     <div>
       <NavbarSocial />
       <Hero />
-      <FeaturesWithIcons />
+      <FeaturesWithIcons modal={true} />
       {/* <FeaturesButton /> */}
       {/* <Numbers /> */}
       <About />
