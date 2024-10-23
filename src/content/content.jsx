@@ -101,9 +101,9 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Consultoria jurídica",
+        title: "Consultoria Jurídica",
         subtitle:
-          "Orientação especializada para prevenir litígios e garantir segurança jurídica nas decisões empresariais.",
+          "Temos uma orientação especializada para prevenir litígios e garantir segurança jurídica na tomada de decisões.",
         description: (
           <div>
             A Definir <br />
@@ -136,9 +136,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do consumidor",
+        title: "Direito do Consumidor",
         subtitle:
-          "Defesa eficiente dos interesses empresariais em questões de relações de consumo.",
+          "Defesa eficiente dos interesses pessoais ou empresariais na relação de consumo.",
         description: (
           <div>
             A Definir <br />
@@ -170,9 +170,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Usucapião extrajudicial de bens móveis",
+        title: "Usucapião Extrajudicial de Bens Móveis",
         subtitle:
-          "Regularização de posse com agilidade, evitando longos processos judiciais.",
+          "Regularização de posse com agilidade  de casas, veículos, evitando longos processos judiciais.",
         description: (
           <div>
             A Definir <br />
@@ -208,7 +208,7 @@ const content = {
         img: featuresImg4,
         title: "Planos de saúde",
         subtitle:
-          "Resolução de conflitos com operadoras de saúde, assegurando o cumprimento dos direitos contratados.",
+          "Resolução de conflitos com operadoras de saúde de modo a assegurar o cumprimento dos direitos contratados.",
         description: (
           <div>
             A Definir <br />
