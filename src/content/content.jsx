@@ -101,9 +101,9 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Consultoria jurídica",
+        title: "Direito do Consumidor",
         subtitle:
-          "Orientação especializada para prevenir litígios e garantir segurança jurídica nas decisões empresariais.",
+          "Defesa eficiente dos interesses pessoais ou empresariais na relação de consumo.",
         description: (
           <div>
             A Definir <br />
@@ -122,13 +122,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-tag"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -136,9 +133,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do consumidor",
+        title: "Usucapião Extrajudicial de Bens Móveis",
         subtitle:
-          "Defesa eficiente dos interesses empresariais em questões de relações de consumo.",
+          "Regularização de posse com agilidade  de casas, veículos, evitando longos processos judiciais.",
         description: (
           <div>
             A Definir <br />
@@ -147,39 +144,6 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-tag"
-          >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
-          </svg>
-        ),
-        buttonLabelModal: "Ortodontia",
-        buttonLabel:
-          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Usucapião extrajudicial de bens móveis",
-        subtitle:
-          "Regularização de posse com agilidade, evitando longos processos judiciais.",
-        description: (
-          <div>
-            A Definir <br />
-            <br />A Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -201,14 +165,46 @@ const content = {
             <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
+        buttonLabelModal: "Ortodontia",
+        buttonLabel:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Planos de saúde",
+        subtitle:
+          "Resolução de conflitos com operadoras de saúde de modo a assegurar o cumprimento dos direitos contratados.",
+        description: (
+          <div>
+            A Definir <br />
+            <br />A Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-heart"
+          >
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Planos de saúde",
+        title: "Consultoria Jurídica",
         subtitle:
-          "Resolução de conflitos com operadoras de saúde, assegurando o cumprimento dos direitos contratados.",
+          "Orientação especializada para prevenir litígios e garantir segurança jurídica na tomada de decisões.",
         description: (
           <div>
             A Definir <br />
@@ -229,9 +225,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart"
+            class="lucide lucide-scale"
           >
-            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
