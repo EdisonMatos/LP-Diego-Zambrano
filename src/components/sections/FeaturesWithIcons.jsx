@@ -24,12 +24,13 @@ export default function FeaturesWithIcons() {
 
       <SectionWrapper>
         <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-          <div className="col1 desktop1:w-[28%] flex flex-col items-center">
+          <div className="col1 desktop1:w-[28%] flex flex-col items-center justify-between">
             <MotionDivDownToUp className="flex flex-col items-center">
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
+                className=" tablet1:!h-[300px]"
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -37,14 +38,14 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card2.icon}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
-                className="tablet1:mt-[26px] desktop1:mt-0 desktop2:mt-[46px]"
+                className=" tablet1:!h-[343px] desktop1:!h-[370px]"
               />
             </MotionDivDownToUp>
           </div>
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
             <div
-              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
+              className="hidden h-[670px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
@@ -57,19 +58,20 @@ export default function FeaturesWithIcons() {
             </div>
           </MotionDivDownToUp>
           <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-            <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+            <MotionDivDownToUp className="flex items-center w-full tablet1:w-full desktop1:w-[250px]">
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
+                className=" tablet1:!h-[300px] desktop1:!h-[330px]"
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp className=" w-full tablet1:w-[290px] desktop1:w-[250px] flex flex-col items-center">
+            <MotionDivDownToUp className=" w-full tablet1:w-full desktop1:w-[250px] flex flex-col items-center">
               <IconFeatureCard
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
-                className="tablet1:mt-[26px] desktop1:mt-0 desktop2:mt-[46px]"
+                className="tablet1:!h-[300px]"
               />
               <Button
                 label="Saber mais"
